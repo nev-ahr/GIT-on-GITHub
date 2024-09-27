@@ -40,7 +40,7 @@ public class Cat {
 		g2.setColor(Color.blue);
 		x = catX + MOUTH_X;
 		y = catY + MOUTH_Y;
-		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
+		g2.fillOval(x + 100, y, MOUTH_WIDTH, MOUTH_HEIGHT);
 		g2.setColor(Color.ORANGE);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
